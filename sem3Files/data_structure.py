@@ -1,0 +1,47 @@
+'''my_list=['hello','world','this','is','my','string']
+my_list.append('appending')
+print(my_list)
+my_list.clear()
+my_list.append('this')
+print(my_list)
+my_tupple=('yo','this','is','a','tuple')
+my_list.append('wow')
+print(my_list)
+my_list.remove('this')
+print(my_list)
+print()
+a=['kite','bite','smite',1,2,3,4,5]
+print(a)
+a.append(3)
+print(a)
+b=a.copy()
+print(b)
+'''
+
+'''SETS
+a={1,2,3,4,5}
+b={4,5,6,7,8,9,10}
+c={2,3,4}
+print(a|b)
+a.pop()
+print(a)
+b.pop()
+print(b)
+#
+print(b-a)
+print(c.issubset(a))
+print(a.issuperset(c))'''
+a={1,2,3,4,5,6,7}
+b={1,2,3}
+c={1,2,3,4,5,10,11}
+if a==c:
+    print("yeah")
+else:
+    print("wow")
+
+'''dictionary'''
+print(a)
+abc={1:'my',2:'name',3:'is',4:'babatunde'}
+print(abc)
+b.update(c)
+print(b)
